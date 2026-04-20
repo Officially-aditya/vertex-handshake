@@ -21,8 +21,7 @@ This project runs two Python agents against a local FoxMQ broker and shows:
 ├── requirements.txt
 ├── scripts/
 │   ├── run_warmup.sh
-│   ├── setup_foxmq.sh
-│   └── warmup_video_script.md
+│   └── setup_foxmq.sh
 └── warmup/
     ├── agent.py
     └── state.py
@@ -79,8 +78,6 @@ Start recording in a second terminal:
 asciinema rec warmup.cast
 bash scripts/run_warmup.sh
 ```
-
-A ready-to-read narration is available in [scripts/warmup_video_script.md](scripts/warmup_video_script.md).
 
 ## Manual Run
 
